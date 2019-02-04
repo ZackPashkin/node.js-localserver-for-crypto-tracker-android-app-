@@ -4,7 +4,8 @@
   "description": "Cryptocurrencies REST API Tracker",
   "main": "index.js",
   "scripts": {
-    "json:server": "json-server --watch db.json"
+    "json:server": "json-server --watch db.json",
+    "json:server:remote":"json-server https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
   },
   "author": "Zack",
   "license": "ISC",
