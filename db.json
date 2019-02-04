@@ -1,6 +1,7 @@
-
-[
-    {
+{
+"crypto":
+    [
+        {
         "id": "bitcoin", 
         "name": "Bitcoin", 
         "symbol": "BTC", 
@@ -171,3 +172,5 @@
         "last_updated": "1549284489"
     }
 ]
+
+}
